@@ -144,4 +144,11 @@
     .arrowIcon{
         display: none;
     }
+    .applyBtn2 button{
+        font-size: 12px;
+    }
+    .applyBtn1 button{
+        font-size: 12px;
+    }
+    
 }

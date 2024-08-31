@@ -33,7 +33,7 @@ export default function Home() {
   return (
     <Container >
       <Grid container spacing={2} mt={3}>
-        <Grid item xs={12} md={12}>
+        <Grid item xs={12} md={12} >
           <div className="searchbar-container">
             <div className="searchbar-wrapper">
               <div className="role-wrapper">
