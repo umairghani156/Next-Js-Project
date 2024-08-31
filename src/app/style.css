@@ -1,0 +1,203 @@
+body{
+    background-color:  #f9f9f9;
+}
+.searchbar-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.searchbar-wrapper{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.role-wrapper{
+    border: 1px solid #bfbfbf;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 5px 8px;
+    width: 350px;
+    border-radius: 999px;
+    background-color: #ffffff;
+}
+.place-wrapper{
+    border: 1px solid #bfbfbf;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 5px 8px;
+    width: 300px;
+    border-radius: 999px;
+    background-color: white;
+}
+.role-input{
+    border: none;
+    outline: none;
+    width: 100%;
+    color: #ababab;
+}
+.place-input{
+    border: none;
+    outline: none;
+    width: 100%;
+    color: #ababab;
+}
+.find-taks-btn{
+    border: none;
+    outline: none;
+    padding: 8px 8px;
+    border-radius: 999px;
+    background-color: #fdb120;
+    color: white;
+    cursor: pointer;
+    width: 160px;
+}
+.sortedWrapper{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.sortedWrapper p{
+    font-size: 14px;
+    font-weight: 600;
+    color: #747474;
+}
+.jobDetailWrapper{
+    background-color: #ffffff;
+    width: 100%;
+    height: 400px;
+    box-shadow: 0px 0px 10px 0px #f0f0f0;
+    border-radius: 5px;
+}
+.imageWrapperContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.jobsInfoWrapper01{
+    display: flex;
+    gap: 10px;
+}
+.imageWrapper{
+    width: 35px;
+    height: 35px;
+    border: 1px solid #f1f1f6;
+    border-radius: 999px;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #fdfefa;
+}
+.icon{
+    color: #a5a9aa;
+}
+.logo-img{
+    width: 100%;
+    height: 100%;
+}
+.textWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 5px;
+}
+.textWrapper span:nth-child(1){
+    font-size: 20px;
+    font-weight: 600;
+}
+.textWrapper span:nth-child(2){
+    font-size: 14px;
+    font-weight: 400;
+    color: #ababab;
+}
+.jobsInfoWrapper ul{
+    display: flex;
+    list-style: none;
+    font-size: 12px;
+    margin: 0;
+    padding-left: 0;
+    gap: 7px;
+}
+.jobsInfoWrapper ul li{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    
+}
+.jobsInfoWrapper ul li span {
+    font-size: 12px; 
+    font-weight: 500; /* Example property */
+    color: #6b6c70;
+}
+.hiringInfoWrapper{
+    display: flex;
+    gap: 10px;
+}
+.hiringInfoWrapper button:nth-child(1){
+   background-color: #f9fbf7;
+   border: 1.5px solid #d2ddcd;
+   color: #98b587;
+   border-radius: 999px;
+   width: 100%;
+   font-size: 10px;
+   font-weight: 600;
+   padding: 5px 0;
+}
+.hiringInfoWrapper button:nth-child(2){
+    background-color: #f1fdf9;
+    border: 1.5px solid #d3e9e1;
+    color: #bbe3d6;
+    border-radius: 999px;
+    font-size: 10px;
+    width: 100%;
+    font-weight: 600;
+   padding: 5px 0;
+
+ }
+ .hiringTitle{
+    font-size: 14px;
+    font-weight: 600;
+    color: #747474;
+    margin:10px 0 2px 0;
+ }
+ .companyInfoWrapper{
+    margin-top: 0;
+ }
+ .companyInfoWrapper h3{
+    font-size: 14px;
+    font-weight: 600;
+    color: #747474;
+    margin: 4px 0 2px 0;
+ }
+.companyInfoWrapper p{
+    font-size: 11px;
+    font-weight: 400;
+    color: #ababab;
+    margin: 0;
+}
+.timeAndInfoWrapper{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 15px;
+}
+.timeAndInfoWrapper span{
+    font-size: 12px;
+    font-weight: 600;
+    color: #747474;
+    
+}
+.learnMoreBtn{
+    border: 1.5px solid #f0b74b;
+    color: #fee296;
+    background-color: #fcb836;
+    border-radius: 999px;
+    padding: 7px 15px;
+    cursor: pointer;
+}
+.learnMoreSpan{
+    font-size: 12px;
+    font-weight: 500;
+    color: #dfe6e3;
+}
